@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Open In Explorer" url="https://github.com/sauntor">
+      Open the selected directory or file&apos;s parent directory with explorer.
+   </description>
+   <feature url="features/org.sauntor.oie.feature_1.0.0.201405221438.jar" id="org.sauntor.oie.feature" version="1.0.0.201405221438">
+      <category name="oie_main"/>
+   </feature>
+   <category-def name="oie_main" label="Open In Explorer">
+      <description>
+         Open the selected directory or file&apos;s parent directory with explorer.
+      </description>
+   </category-def>
+</site>

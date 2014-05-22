@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Oie
+Bundle-SymbolicName: org.sauntor.oie.main;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.sauntor.oie.Activator
+Bundle-Vendor: Sauntor Gong
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

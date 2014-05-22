@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IResource"
+            id="org.sauntor.oie.main">
+         <action
+               label="Open In Explorer"
+               class="org.sauntor.oie.internal.OieAction"
+               menubarPath="org.sauntor.oie"
+               enablesFor="1"
+               id="org.sauntor.oie.oieAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>

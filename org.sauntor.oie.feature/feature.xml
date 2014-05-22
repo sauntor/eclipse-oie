@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sauntor.oie.feature"
+      label="Open In Explorer"
+      version="1.0.0.qualifier"
+      provider-name="Sauntor Gong">
+
+   <description>
+      Open the selected directory or file&apos;s parent directory with explorer.
+   </description>
+
+   <copyright url="https://github.com/sauntor">
+      EPL
+   </copyright>
+
+   <license url="https://github.com/sauntor">
+      EPL.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+   </requires>
+
+   <plugin
+         id="org.sauntor.oie"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
